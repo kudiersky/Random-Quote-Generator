@@ -14,7 +14,7 @@ quotes.splice(selectRandomQuote,1)
 }// removes quote from array
 
 setInterval(function(){
-    printQuote()}, 30000)// cycles through the page if generate is not clicked for 30000 milisecs 30 secs
+    printQuote()}, 30000)// cycles through the page if generate is not clicked for 30000 milisec 30 secs
 
 function printQuote(){
 
