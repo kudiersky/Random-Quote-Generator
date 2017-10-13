@@ -52,3 +52,5 @@ var quotes =  [{ source: "David Allen", //[0]
       category: categories[4],
     }
 ];
+
+var usedQuotes =  [];
