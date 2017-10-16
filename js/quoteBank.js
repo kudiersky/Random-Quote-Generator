@@ -1,14 +1,15 @@
 
-var categories =  ["Humour",
- "Literature",
- "Music",
- "Film",
- "Science",
- "Physcology",
- "Philosophy",
- "Journalism"]
+var categories =  [
+ "Humour", //[0]
+ "Literature",//[1]
+ "Music", //[2]
+ "Film",//[3]
+ "Science",//[4]
+ "Physcology",//[5]
+ "Philosophy",//[6]
+ "Journalism"]//[7]
 
-var unknown = "unknown";
+var unknown = "unknown"; //a value of unknown is used to allow the year to be omitted if not known.
 
 var quotes =  [{ source: "David Allen", //[0]
       quotation: "You can do anything but not everything.",
@@ -31,13 +32,13 @@ var quotes =  [{ source: "David Allen", //[0]
     { source: "Winston Churchill", //[3]
       quotation: "Success is walking from failure to failure woth no loss of enthusiasm",
       year: 1944,
-      category: categories[3],
+      category: categories[6],
     },
 
     { source: "Dr. Suess", //[4]
       quotation: "A person's a person, no matter how small.",
       year: 2002,
-      category: categories[3],
+      category: categories[1],
     },
 
     { source: "Anne Frank",//[5]
@@ -46,11 +47,11 @@ var quotes =  [{ source: "David Allen", //[0]
       category: categories[5],
     },
 
-    { soure: "Lydon Johnson",//[6]
+    { source: "Lydon Johnson",//[6]
       quotation: "Reporters are puppets. They simply respond to the pull of the most powerful strings.",
       year: unknown,
       category: categories[4],
     }
 ];
 
-var usedQuotes =  [];
+var usedQuotes =  []; //redundant until the objects are displayed, then populated in here.

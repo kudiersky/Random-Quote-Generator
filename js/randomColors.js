@@ -1,4 +1,4 @@
-var colors; //used to set the background of the HTML page
+var colors; //used to set the background of the HTML page.
 
 colors =  [
   "#CD919E",
@@ -11,4 +11,4 @@ colors =  [
   "#BDB76B",
   "#FFC125",
   "#EE5C42",
-  "#7D9EC0" ]; //all colours must have quotes to pass
+  "#7D9EC0" ]; //all colours must have quotes to pass.
